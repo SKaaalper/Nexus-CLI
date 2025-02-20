@@ -1,6 +1,6 @@
 # Nexus Testnet II CLI Installation
 
-    ![image](https://github.com/user-attachments/assets/70443224-d737-4104-ba4f-3140102845eb)
+![image](https://github.com/user-attachments/assets/70443224-d737-4104-ba4f-3140102845eb)
 
 Nexus Layer 1: Planetary scale, Exponential performance. Built for everyone.
 
