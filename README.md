@@ -29,15 +29,15 @@ Nexus Layer 1: Planetary scale, Exponential performance. Built for everyone.
    sudo apt update && sudo apt upgrade -y && sudo apt install -y curl build-essential pkg-config libssl-dev git-all protobuf-compiler
    ```
    - Install Latest Protobuf Compiler (protoc 25.2)
-```
-PROTOC_VERSION=25.2
-wget https://github.com/protocolbuffers/protobuf/releases/download/v${PROTOC_VERSION}/protoc-${PROTOC_VERSION}-linux-x86_64.zip
-sudo unzip -o protoc-${PROTOC_VERSION}-linux-x86_64.zip -d /usr/local
-rm protoc-${PROTOC_VERSION}-linux-x86_64.zip
-```
-```
-protoc --version
-```
+   ```
+   PROTOC_VERSION=25.2
+   wget https://github.com/protocolbuffers/protobuf/releases/download/v${PROTOC_VERSION}/protoc-${PROTOC_VERSION}-linux-x86_64.zip
+   sudo unzip -o protoc-${PROTOC_VERSION}-linux-x86_64.zip -d /usr/local
+   rm protoc-${PROTOC_VERSION}-linux-x86_64.zip
+   ```
+   ```
+   protoc --version
+   ```
 
 2. Install `Rust` and `Cargo`:
    ```
