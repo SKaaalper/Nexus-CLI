@@ -81,7 +81,27 @@ Nexus Layer 1: Planetary scale, Exponential performance. Built for everyone.
 
   ![image](https://github.com/user-attachments/assets/09942e02-33e6-497b-bae1-1544a6532865)
 
+2. Many are facing **auto-disconnect** issues. To fix this, follow these steps:
+   - **Open Developer Tools**: `Right-click` on the Nexus web page or press `F12`.
+   - **Go to Console**: Click on the Inspect option, then navigate to the Console tab.
+   - **Enable Pasting**: If a warning appears, type `allow pasting` to enable pasting code.
+   - **Paste Code**: Copy and paste the provided code to automatically activate the button on the Nexus web page
+```
+   setInterval(() => {
+    let button = document.querySelector('.relative.w-24.h-16');
 
+    if (button) {
+        let isOff = button.classList.contains('border-gray-400');
+
+        if (isOff) {
+            button.click();
+            console.log("Button turned ON!");
+        }
+    }
+}, 1000);
+```
+
+**Note:** If you refresh the page, you will need to paste the code again in the console section.
 
 
 
