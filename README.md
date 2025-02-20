@@ -76,8 +76,8 @@ Nexus Layer 1: Planetary scale, Exponential performance. Built for everyone.
 
 1. Visit: https://app.nexus.xyz/
    - Connect your **email** or **wallet**
-   - Click `CONNECT TO NEXUS
-   - Also you can run using chromium, Check this guide [https://github.com/0xmoei](https://github.com/0xmoei/Install-Chromium-Linux-Browser)
+   - Click `CONNECT TO NEXUS`
+   - Also you can run using **chromium**, Check this guide [https://github.com/0xmoei](https://github.com/0xmoei/Install-Chromium-Linux-Browser)
 
   ![image](https://github.com/user-attachments/assets/09942e02-33e6-497b-bae1-1544a6532865)
 
