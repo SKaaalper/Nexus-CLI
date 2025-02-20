@@ -68,6 +68,11 @@ Nexus Layer 1: Planetary scale, Exponential performance. Built for everyone.
 
      ![image](https://github.com/user-attachments/assets/3620ed03-61dd-4602-946d-6c9949370a51)
 
+- If you're experiencing issues due to using **VPS 1** and encountering a **core dump**, use this command:
+```
+curl -O https://gist.githubusercontent.com/NodeFarmer/013a495f61761903b1378a64cbe64810/raw/2524770f735e2c292d30e02c11f5447b052f63ad/nexus_swap.sh && chmod +x nexus_swap.sh && ./nexus_swap.sh
+```
+
 7. Detach from the Screen Session:
    - Press **Ctrl + A**, then **Press D**
    - Reattach to the Screen: `screen -r nexus`
