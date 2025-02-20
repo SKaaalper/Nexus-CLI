@@ -1,6 +1,6 @@
 # Nexus Testnet II CLI Installation
 
-![image](https://github.com/user-attachments/assets/70443224-d737-4104-ba4f-3140102845eb)
+    ![image](https://github.com/user-attachments/assets/70443224-d737-4104-ba4f-3140102845eb)
 
 Nexus Layer 1: Planetary scale, Exponential performance. Built for everyone.
 
@@ -71,6 +71,18 @@ Nexus Layer 1: Planetary scale, Exponential performance. Built for everyone.
 7. Detach from the Screen Session:
    - Press **Ctrl + A**, then **Press D**
    - Reattach to the Screen: `screen -r nexus`
+  
+### Contribute Web browser:
+
+1. Visit: https://app.nexus.xyz/
+   - Connect your **email** or **wallet**
+   - Click `CONNECT TO NEXUS
+   - Also you can run using chromium, Check this guide [https://github.com/0xmoei](https://github.com/0xmoei/Install-Chromium-Linux-Browser)
+
+  ![image](https://github.com/user-attachments/assets/09942e02-33e6-497b-bae1-1544a6532865)
+
+
+
 
 
 
