@@ -39,6 +39,8 @@ Nexus Layer 1: Planetary scale, Exponential performance. Built for everyone.
    ```
    protoc --version
    ```
+   ![image](https://github.com/user-attachments/assets/1f3550a8-0274-4c48-a4f7-05c3c26b8905)
+
 
 2. Install `Rust` and `Cargo`:
    ```
