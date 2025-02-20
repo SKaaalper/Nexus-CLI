@@ -101,6 +101,9 @@ Nexus Layer 1: Planetary scale, Exponential performance. Built for everyone.
 }, 1000);
 ```
 
+![image](https://github.com/user-attachments/assets/95cfea78-e02b-452c-9e9b-d0faf4abddca)
+
+
 **Note:** If you refresh the page, you will need to paste the code again in the console section.
 
 
