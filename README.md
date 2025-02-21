@@ -124,7 +124,52 @@ curl -O https://gist.githubusercontent.com/NodeFarmer/013a495f61761903b1378a64cb
 
 **Note:** If you refresh the page, you will need to paste the code again in the console section.
 
+3. Option 2 you can use this in your chrome browser:
+   - Download **TamperMonkey** extension chrome: [Here](https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?pli=1)
+   - Open Extension
+   - Click Create New Script
+   - Enter this code:
+```
+// ==UserScript==
+// @name         Nexus Auto Clicker
+// @namespace    http://tampermonkey.net/
+// @version      1.0
+// @description  Automatically clicks the target button on Nexus app if not connected.
+// @author       You
+// @match        https://app.nexus.xyz/*
+// @grant        none
+// @run-at       document-idle
+// ==/UserScript==
 
+(function autoClick() {
+    const targetSelector = '.relative.w-24.h-16.rounded-full.cursor-pointer';
+    const checkInterval = 2000; // Check every 2 seconds
+
+    function checkAndClick() {
+        const target = document.querySelector(targetSelector);
+
+        if (target) {
+            console.log("Target found!");
+
+            const img = target.querySelector('img[alt="Circle Image"]');
+            if (img && img.classList.contains("brightness-0") && img.classList.contains("invert")) {
+                console.log("Not connected! Clicking...");
+                target.click();
+            } else {
+                console.log("Already connected.");
+            }
+        } else {
+            console.log("Target not found.");
+        }
+    }
+
+    setInterval(checkAndClick, checkInterval);
+})();
+```
+- Click save
+- Go to nexus web Web Node and REFRESH
+- Check on Tampermonkey extension, make sure it enable and nexus auto click script enabled
+- it will auto connect node everytime you open nexus website and alsol auto reconnect your node if it disconnected
 
 
    
