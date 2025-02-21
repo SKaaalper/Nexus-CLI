@@ -85,6 +85,10 @@ Nexus Layer 1: Planetary scale, Exponential performance. Built for everyone.
 ```
 curl -O https://gist.githubusercontent.com/NodeFarmer/013a495f61761903b1378a64cbe64810/raw/2524770f735e2c292d30e02c11f5447b052f63ad/nexus_swap.sh && chmod +x nexus_swap.sh && ./nexus_swap.sh
 ```
+- Run `NEXUS` CLI again:
+```
+curl https://cli.nexus.xyz/ | sh
+```
 
 1. Detach from the Screen Session:
    - Press **Ctrl + A**, then **Press D**
