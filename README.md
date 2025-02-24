@@ -175,7 +175,16 @@ curl https://cli.nexus.xyz/ | sh
 - Check on Tampermonkey extension, make sure it enable and nexus auto click script enabled
 - it will auto connect node everytime you open nexus website and alsol auto reconnect your node if it disconnected
 
-
+### Delete Nexus Node:
+```
+screen -ls | awk '/nexus/ {print $1}' | xargs -I {} screen -X -S {} quit && pkill -f nexus && rm -rf ~/.nexus && rm -f /usr/local/bin/nexus
+```
+- Verify if Deleted:
+```
+screen -ls
+ls -la ~/.nexus
+which nexus
+```
    
 
      
